@@ -1,0 +1,341 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hepsi
+{
+    width: 1519px;
+    height: auto;	
+}
+.menu
+{
+    position: fixed;
+	width: 1519px;
+	height: 46px;
+	background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 9999;
+    
+}
+.serıt
+{
+	width: 1519px;
+	height: 36px;
+	background: #e34140;
+}
+.orta1
+{
+	width: 1519px;
+	height: 609px;
+	
+}
+.orta2
+{
+	width: 1519px;
+	height: 609px;
+}
+.orta3
+{
+    position: absolute;
+    top: 180%;
+	width: 1519px;
+	height: 609px;
+    background: #35283c;
+    
+}
+.orta4
+{
+    position: absolute;
+    top: 250%;
+	width: 1519px;
+	height: 609px;
+	background: #f5f5f7;
+    margin-top: 25px;
+    
+}
+
+.menu ul
+{
+    margin-left: 250px;
+}
+.menu ul li
+{
+    
+    justify-content: space-between;
+    display: flex;
+    margin: 18px -60px 90px 99px;
+    margin-left: 110px;
+    padding: -10px;
+    float: left;
+    list-style: none;
+    font-size: 10px;
+}
+.menu ul li a{
+    display: block;  
+    text-decoration: none;
+    color:#d6d6d6;
+}
+.menu ul li:hover a
+{
+    color: #fff;
+}
+.menu ul li#logo a
+{
+    position: absolute;
+    top: 28%;
+    font-size: 20px;
+    
+}
+
+.menu ul li#Search a
+{
+    position: absolute;
+    top: 35%;
+    font-size: 15px;
+}
+.menu ul li#bag a
+{
+    position: absolute;
+    top: 35%;
+    font-size: 15px;
+}
+.serıt
+{
+    position: absolute;
+    top: 46.5px;
+    text-align: center;
+    color: bisque;
+}
+.serıt p 
+{
+    position: relative;
+    margin-top: 7px;
+}
+.serıt span:hover
+{
+    text-decoration: underline;
+    cursor: pointer;   
+}
+.orta1
+{
+    display: flex;
+    top: 0px;
+    width: 896px;
+    height: 500px;
+}
+
+.orta1 .img
+{
+    position: relative;
+    top: 85px;
+    margin-left: 80%;
+}
+.orta1 .yaz 
+{   
+    position: absolute;
+    top: 160px;
+    left: 25%;
+}
+.orta1 .yaz h2
+{
+    text-align: center;
+    font-size: 3em; 
+    color: #1d1d1f;  
+}
+.orta1 .satın 
+{   
+    position: absolute;
+    top: 230px;
+    left: 44%;
+    font-size: 1.1em;
+    color: blue;
+}
+.orta1 .satın a{
+    text-decoration: none;
+    color: blue;
+}
+.orta1 .satın:hover a
+{
+    text-decoration: underline;
+    cursor: pointer; 
+}
+.orta1 .resim
+{
+    position: relative;
+    left: -89.9%;
+    top: 45%;
+    
+}
+.orta1 .resim a img
+{
+    width: 1537px;
+    height: 428px;
+}
+.orta2 .Yaz1
+{
+    position: relative;
+    top: 200px;
+    left: 40%;
+    width: 450px;
+    height: 50px;
+}
+.orta2 .Yaz1 h1
+{
+    font-size: 3em;
+}
+.orta2 .Yaz2
+{
+    position: relative;
+    top: 200px;
+    left: 46%;
+    width: 450px;
+    height: 50px;
+}
+.orta2 .Yaz2 h2
+{
+    font-size: 1.5em;
+}
+.orta2 .Satın1
+{
+    position: relative;
+    top: 206px;
+    left: 40%;
+    color: blue;
+    width: 450px;
+    height: 50px;
+}
+.orta2 .Satın1 a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1em;
+}
+.orta2 .Satın1:hover a
+{
+    text-decoration: underline;
+}
+.orta2 .Satın2
+{
+    position: relative;
+    top: 157px;
+    left: 52%;
+    color: blue;
+    width: 450px;
+    height: 50px;
+}
+.orta2 .Satın2 a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1em;
+}
+.orta2 .Satın2:hover a
+{
+    text-decoration: underline;
+}
+.orta2 .res2 a img
+{
+    position: relative;
+    top: 220px;
+    left: 29%;
+    width: 700px;
+    height: auto;
+}
+.orta3 .res3 a img
+{
+    position: relative;
+    top: 109px;
+    left: 25%;
+    width: 750px;
+    height: 500px;
+} 
+.orta3 .text1
+{
+    position: absolute;
+    bottom: 65%;
+    left: 42%;
+}
+.orta3 .text1 p
+{
+    font-size: 2em;
+    color: #f7bce5;
+}
+.orta3 .Satın4
+{
+    position: absolute;
+    bottom: 85%;
+    left: 42%;
+    color: #2a8beb;
+}
+.orta3 .Satın4 a
+{
+    text-decoration: none;
+    color: #2a8beb;
+    font-size: 1.3em;
+}
+.orta3 .Satın4:hover a
+{
+    text-decoration: underline;
+}
+.orta3 .Satın5
+{
+    position: absolute;
+    bottom: 85%;
+    left: 55%;
+    color: #2a8beb;
+}
+.orta3 .Satın5 a
+{
+    text-decoration: none;
+    color: #2a8beb;
+    font-size: 1.3em;
+}
+.orta3 .Satın5:hover a
+{
+    text-decoration: underline;
+}
+
+.orta4 ul li
+{
+    margin-top: 20px;
+    border-top: 1px solid #c5c5c7;
+    padding: 10px 0 11px;
+    display: block;
+    width: -500px;
+    height: 20px;
+    font: 13px helvetica;
+    color: #666;
+}
+.orta4 ul li#a1
+{
+    width: 250px;
+    position: relative;
+    left: 20%;
+    float:inline-end;
+}
+.orta4 ul li#a2
+{
+    width: 170px;
+    position: relative;
+    left: 20%;
+}
+.orta4 ul li#a3
+{
+    width: 150px;
+    position: relative;
+    left: 20%;
+}
+.orta4 ul li#a4
+{
+    width: 170px;
+    position: relative;
+    left: 20%;
+}
+.orta4 ul li#a5
+{
+    width: 100px;
+    position: relative;
+    left: 20%;
+}
